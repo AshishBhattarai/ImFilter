@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorNavBack">
+
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:gravity="center" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/tableLayout2" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/clearEffectBtn">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:gravity="center">
+            <Button
+                    android:text="Negative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/negativeBtn"/>
+            <Button
+                    android:text="Sepia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/sepiaBtn"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:gravity="center">
+            <Button
+                    android:text="Greyscale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/greyScaleBtn"/>
+            <Button
+                    android:text="Lomoish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/lomoBtn"/>
+        </TableRow>
+    </TableLayout>
+    <TextView
+            android:text="More comming someday....(maybe)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+            android:text="Clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clearEffectBtn"
+            app:layout_constraintBottom_toTopOf="@+id/textView" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    />
+</android.support.constraint.ConstraintLayout>

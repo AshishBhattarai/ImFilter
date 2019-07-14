@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ImFilter</string>
+    <string name="app_desc">This is a test app</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="exit">Exit</string>
+    <string name="apply">Apply</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green:</string>
+    <string name="red">Red:</string>
+</resources>
